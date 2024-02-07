@@ -181,10 +181,6 @@ After doing this, the netsim device will provide the desired output when using t
 
 ```
 admin@ncs# devices device T1-IOS-ACC-C3K6-U-IOS-1 live-status exec any show ip ospf interface Ethernet 1/1
-
-#!/bin/bash
-
-cat <<EOF
 Ethernet1/1 is up, line protocol is up 
   Internet Address 10.3.252.113/30, Area O
   Label stack Primary Tabel 1 Backup Tabel 3 SRTE Tabel 10
@@ -207,5 +203,4 @@ Ethernet1/1 is up, line protocol is up
   Message digest authentication enabled
     Youngest key id is 1
   Multi-area interface Count is 0
-EOF
 ```
